@@ -6,12 +6,52 @@
     <title>Document</title>
 </head>
 <body>
-    <ol>
-        <li>Chocolate</li>
-        <li>Cake</li>
-        <li>Candy</li>
-        <li>Cookie</li>
-        <li>Icecream</li>
-    </ol>
+    <h1>Order Details</h1>
+    <form>
+  <label>Name</label>
+  <input type="text" name="name"><br><br>
+  <label>Email</label>
+  <input type="email" name="email"><br><br>
+  <label>Password</label>
+  <input type="password" name="password"><br><br>
+  <label>Gender</label><br>
+  <input type="radio" name="gender" id="male">
+  <label for="male">Male</label><br>
+  <input type="radio" name="gender" id="female">
+  <label for="female">Female</label><br>
+  <input type="radio" name="gender" id="others">
+  <label for="others">Others</label><br><br>
+  <label>Select:</label><br>
+  <input type="checkbox" id="chocolate" name="bake">Chocolate <br>
+    <input type="checkbox" id="cake" name="bake">Cake <br>
+      <input type="checkbox" id="chocolate" name="bake">Candy <br><br>
+       <button type="submit">Submit</button><br><br>
+     <table border="2">
+  <tr>
+    <th rowspan="2">Sno</th>
+    <th colspan="3">Review</th>
+    <th rowspan="2">Sales</th>
+  </tr>
+  <tr>
+    <th>Quality</th>
+    <th>Rating</th>
+    <th>Feedback</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Good</td>
+    <td>4.5</td>
+    <td>Positive</td>
+    <td>₹10,000</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Average</td>
+    <td>3.8</td>
+    <td>Neutral</td>
+    <td>₹7,500</td>
+  </tr>
+</table>
+    </form>
 </body>
 </html>
