@@ -1,0 +1,18 @@
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(233, 141, 141);
+    align-items: center;
+    height: 20vh;
+    
+}
+
+a{
+    color: aliceblue;
+    text-decoration: dotted;
+    cursor: pointer;
+}
+a:hover{
+  color: black;  
+}

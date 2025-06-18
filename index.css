@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+}
+table th{
+ 
+    color: peru;
+    padding: 20px;
+    position: static;
+    top: 10px;
+    left: 40px;
+}
+td{
+    color: darkslategray;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+button{
+    cursor: pointer;
+}

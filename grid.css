@@ -1,0 +1,22 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grid-container div{
+    border: 3px solid brown;
+    background-color: seashell;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

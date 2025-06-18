@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 141, 141);
+    align-items: center;
+    height: 20vh;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none; 
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: black;
+}
+
+@media (max-width: 470px) {
+    .nav {
+        flex-direction: column;
+        display: flex;
+    }
+}
