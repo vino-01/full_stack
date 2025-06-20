@@ -26,4 +26,4 @@ async function fetchusers(){
         console.log(error);
     }
 }
-fetchusers()
+fetchusers()                
