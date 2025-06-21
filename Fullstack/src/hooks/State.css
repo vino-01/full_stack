@@ -5,8 +5,8 @@ button{
     color: #ffffff;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
 }
 button:hover{
     color: rgb(255, 17, 0);
-   
 }
