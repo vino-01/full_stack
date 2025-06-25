@@ -4,7 +4,8 @@ import {connectDB} from './config/db.js'
 // import User from './model/user.js'
 import User from './model/form.js'
 import cors from 'cors'
-
+import dotenv from 'dotenv'
+dotenv.config()
 const app = express()
 
 connectDB() 
@@ -29,7 +30,7 @@ const blockDelete=(req,res,next)=>{
 
 app.get('/getform',async(req,res)=>{ 
   try  {   
-    const user = await User.findById(req.params.id)
+    const user = await User.findById(req.query.id)
    if(!user) res.json({mg:'no user found with that id'})
    res.json(user)
     }
