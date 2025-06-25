@@ -30,7 +30,7 @@ const blockDelete=(req,res,next)=>{
 
 app.get('/get',async(req,res)=>{ 
   try  {   
-    const user = await User.findById(req.query.id)
+    const user = await User.find(req.query.id)
    if(!user) res.json({mg:'no user found with that id'})
    res.json(user)
     }
