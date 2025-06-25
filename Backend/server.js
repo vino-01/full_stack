@@ -28,7 +28,7 @@ const blockDelete=(req,res,next)=>{
     next()
 }
 
-app.get('/getform',async(req,res)=>{ 
+app.get('/get',async(req,res)=>{ 
   try  {   
     const user = await User.findById(req.query.id)
    if(!user) res.json({mg:'no user found with that id'})
